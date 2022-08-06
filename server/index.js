@@ -1,16 +1,18 @@
 
-// const express = require('express');
-// const bodyParser =  require('body-parser');
-// const mongoose = require('mongoose') ;
-// const cors = require('cors');
+const express = require('express');
+const bodyParser =  require('body-parser');
+const mongoose = require('mongoose') ;
+const cors = require('cors');
 
-// const postRoutes = require('./routes/posts.js') ;
-import express from 'express';
-import bodyParser from 'body-parser';
-import mongoose from 'mongoose';
-import cors from 'cors';
+const postRoutes = require('./routes/posts.js') ;
+// import express from 'express';
+// import bodyParser from 'body-parser';
+// import mongoose from 'mongoose';
+// import cors from 'cors';
 
-import postRoutes from './routes/posts.js';
+// import postRoutes from './routes/posts.js';
+
+// const postRoutes = require('./routes/posts')
 
 const app = express();
 
